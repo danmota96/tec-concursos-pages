@@ -106,29 +106,25 @@ button {
   }
 }
 
-@media (max-width: 640px) { 
-  header {
-  width: 100%;
-  }
+@media (max-width: 440px) { 
+
   header h1{
     width: fit-content;
-    font-size: 4rem;
+    font-size: 3rem;
   }
  
   button {
-    width: 40%;
+    width: 65%;
   }
 
   #cards {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
   }
 
   #cards h1 {
-    font-size: 3rem;
-
+    font-size: 2.7rem;
   }
   
   #cards p {
